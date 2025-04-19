@@ -257,6 +257,93 @@ a {
     align-items: center;
 }
 
+/* CUSTOMER SECTION */
+.customers-2 {
+    display: none;
+}
+
+.customers {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.customer-video {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.customer-video video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.customer-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.49);
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: white;
+    padding-left: 13rem;
+
+    h1 {
+        font-size: 45px;
+        line-height: 52px;
+        font-weight: 700;
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    span {
+        color: #FF4300;
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        width: 25%;
+        margin-bottom: 25px;
+    }
+
+    button {
+        background-color: #FF4300;
+        color: white;
+        padding: 13px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        width: max-content;
+        border-radius: 30px;
+    }
+
+    i {
+        font-size: 40px;
+        color: #FF4300;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 900px) {
 
     /* navbar */
@@ -434,5 +521,76 @@ a {
 
     .ownership .image-owner {
         width:100%;
+    }
+
+    /* customer section */
+    .customers {
+        display: none;
+    }
+
+    .customers-2{
+        display: block;
+        background-color: #2C2926;
+    }
+    
+    .customer-video-2 {
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+
+        video {
+            width: 100%;
+            
+        }
+    }
+
+    .customer-text-2 {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background-color: #2C2926;
+
+        h1 {
+            font-size: 34px;
+            line-height: 40px;
+            font-weight: 700;
+            width: 80%;
+            color: white;
+        }
+
+        span {
+            color: #FF4300;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            width: 85%;
+            color: white;
+        }
+
+        h6 {
+            color: #838383;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+    
+        button {
+            background-color: #FF4300;
+            color: white;
+            padding: 11px 18px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            width: max-content;
+            border-radius: 30px;
+        }
+    
+        i {
+            font-size: 40px;
+            color: #FF4300;
+        }        
     }
 }
