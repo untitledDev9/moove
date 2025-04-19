@@ -286,7 +286,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.49);
+    background-color: rgba(0, 0, 0, 0.496);
     z-index: 4;
     display: flex;
     flex-direction: column;
@@ -312,8 +312,9 @@ a {
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-        width: 25%;
+        width: 40%;
         margin-bottom: 25px;
+
     }
 
     button {
@@ -327,10 +328,12 @@ a {
         border-radius: 30px;
     }
 
-    i {
-        font-size: 40px;
-        color: #FF4300;
+    h6 {
+        font-size: 16px;
+        color: #b6b6b6;
+        margin-bottom: 28px;
     }
+
 }
 
 
@@ -524,6 +527,8 @@ a {
     }
 
     /* customer section */
+
+
     .customers {
         display: none;
     }
@@ -586,11 +591,9 @@ a {
             border: none;
             width: max-content;
             border-radius: 30px;
-        }
-    
-        i {
-            font-size: 40px;
-            color: #FF4300;
-        }        
+        }     
+    }  
+    .quote-2 {
+        /* background: rebeccapurple; */
     }
 }
