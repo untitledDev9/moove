@@ -439,6 +439,68 @@ a {
 
 /* goals section */
 
+.goals {
+    background-color: #2C2926;
+    color: #fff;
+    padding: 6rem 5rem;
+}
+
+.goals-heading {
+
+    h1 {
+        font-size: 48px ;
+        text-align: center;
+    }
+}
+
+.goal-all-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.goals-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.goals-rate {
+    display: block;
+    padding: 50px 20px 20px 20px;
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+.goals-text {
+    display: grid;
+    gap: 15px;
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 15px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 28px;
+        color: 
+        #999791;
+    }
+}
+
+/* mobile-section */
+
+.mobile-bckg {
+    
+}
 
 
 
@@ -777,5 +839,27 @@ a {
 
     .vehicle-icons .svg-icons:nth-child(7) {
         grid-column-start: auto;
+    }
+
+    /* goals section */
+
+    
+.goals-heading {
+
+    h1 {
+        font-size: 28px ;
+        text-align: center;
+    }
+}
+
+.goal-all-card {
+    gap: 30px;
+}
+
+.goals-text {
+    
+        p {
+            width: 100%;
+        }
     }
 }
