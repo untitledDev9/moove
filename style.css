@@ -336,6 +336,108 @@ a {
 
 }
 
+/* vehicles section */
+
+.vehicle-col-1 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 200px 120px 120px 120px;
+}
+
+.vehicle-text {
+    display: grid;
+    gap: 20px;
+    width: 100;
+
+    h1 {
+        font-size: 48px;
+        line-height: 52px;
+        font-weight: 700;
+        color: #2c2926;
+        width: 50%;
+    }
+
+    span {
+        color: #FF4300;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #2C2926;
+    }
+
+    button {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 25px;
+        background-color: #2C2926;
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        width: max-content;
+    }
+}
+
+.vehicle-imgs {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.vehicle-col-2 {
+    display: grid;
+    gap: 65px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 7rem;
+}
+
+.vehicle-bottom-text {
+
+    h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.vehicle-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    /* align-items: center; */
+    row-gap: 20px;
+}
+
+.vehicle-icons .svg-icons:nth-child(n+7) {
+    grid-column: span 1;
+}
+
+.vehicle-icons .svg-icons:nth-child(7) {
+    grid-column-start: 2;
+}
+
+
+.svg-icons {
+    background-color: rgb(255, 255, 255);
+    width: max-content;
+    padding:2px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #7d7d7d;
+
+
+    margin-bottom: 10px;
+
+
+    img {
+        width: 70px;
+    }
+}
+
+/* goals section */
 
 
 
@@ -595,5 +697,85 @@ a {
     }  
     .quote-2 {
         /* background: rebeccapurple; */
+    }
+
+
+/* vehicles sections */
+
+.vehicle-col-1 {
+    display: flex;
+    flex-direction: column;
+    padding:35px 30px;
+    gap: 40px;
+}
+
+.vehicle-text {
+    display: grid;
+    gap: 20px;
+    width: 100;
+
+    h1 {
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 700;
+        color: #2c2926;
+        width: 70%;
+    }
+
+    span {
+        color: #FF4300;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #2C2926;
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 15px 35px;
+        background-color: #2C2926;
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        width: max-content;
+    }
+}
+
+.vehicle-imgs {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+    
+.svg-icons {
+    border-radius: 15px;
+
+
+    margin-bottom: 10px;
+
+    img {
+        width: 40px;
+    }
+}
+
+    .vehicle-col-2 {
+        gap: 90px;
+        width: 70%;
+    }
+
+    .vehicle-icons {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    }
+
+    .vehicle-icons .svg-icons:nth-child(7) {
+        grid-column-start: auto;
     }
 }
